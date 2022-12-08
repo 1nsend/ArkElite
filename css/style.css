@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 400ms;
 }
 
 body {
@@ -63,6 +64,8 @@ body {
 .maps {
     display: flex;
     text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 70px;
 }
 
@@ -120,6 +123,40 @@ hr {
 iframe {
     width: 100%;
     height: 100%;
+}
+
+@media (max-width: 1024px) {
+    .navbar .nav-left h1 {
+        font-size: 24px;
+    }
+    .comandos {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar .nav-left h1 {
+        display: none;
+    }
+    .comandos {
+        width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        padding: 10px;
+    }
+    .comandos {
+        padding: 10px 20px 20px 18px;
+        width: 100%;
+    }
+    .maps {
+        gap: 10px;
+    }
+    .map {
+        width: 100%;
+    }
 }
 
 [data-tooltip] {
