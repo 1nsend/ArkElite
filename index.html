@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ark do Gatinho</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./assets/imgs/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <img src="./assets/imgs/icon.png" class="nav-logo">
+            <a href="#"><h1>Ark do Gatinho</h1></a>
+        </div>
+        <div class="nav-rigth">
+            <a href="https://arktested.com/" target="_blank"><h4>ArkTested</h4></a>
+            <a href="https://ark.fandom.com/wiki/Color_IDs" target="_blank"><h4>Cores</h4></a>
+            <a href="./pages/loja.html"><h4>Loja ArkElite</h4></a>
+        </div>
+    </div>
+    <main class="main"> 
+        <div class="maps">
+            <div class="map">
+                <h2>Resource Maps</h2>
+                <a href="https://ark.fandom.com/wiki/Resource_Map_(Ragnarok)" target="_blank"><h4>Ragnarok</h4></a>
+                <a href="https://ark.fandom.com/wiki/Mod:Fjordur/Resource_Map" target="_blank"><h4>Fjodur</h4></a>
+                <a href="https://ark.fandom.com/wiki/Spawn_Map_(Genesis:_Part_2)" target="_blank"><h4>Genesis 2</h4></a>
+            </div>
+        
+            <div class="map">
+                <h2>Spawn Maps</h2>
+                <a href="https://ark.fandom.com/wiki/Spawn_Map_(Ragnarok)" target="_blank"><h4>Ragnarok</h4></a>
+                <a href="https://ark.fandom.com/wiki/Mod:Fjordur/Spawn_Map" target="_blank"><h4>Fjodur</h4></a>
+                <a href="https://ark.fandom.com/th/wiki/Resource_Map_(Genesis:_Part_2)" target="_blank"><h4>Genesis 2</h4></a>
+            </div>
+        </div>
+        <div class="comandos">
+            <h1>Comandos</h1>
+
+            <h3>Pintar os Dinos</h3>
+            <p data-tooltip="Tem que estar olhando para o dino que você deseja mudar a cor.
+            Exemplo: /sdc 0 14  - Pintou a região 0 na cor preta.">/sdc [regiao] [cor]</p>
+
+            <hr>
+
+            <h3>Trocar Pontos</h3>
+            <p data-tooltip="Mande Pontos para outro Player ( ' ' - as aspas simples são necessárias).
+            Exemplo: /trade 'fulano' 500">/trade ['Nome do Player'] [Quantidade]</p>
+
+            <hr>
+
+            <h3>Localizador de Dino</h3>
+            <p>/track [Nome do Dino]</p>
+            <p>/dinofind [Nome do Dino]</p>
+
+            <hr>
+
+            <h3>Status do Servidor</h3>
+            <p>/status dino</p>
+            <p>/status player</p>
+            <p>/meustatus</p>
+            <p>/status</p>
+
+            <hr>
+
+            <h3>Status do Dino</h3>
+            <p>/dinostats</p>
+
+            <hr>
+
+            <h3>Loja do Servidor</h3>
+            <p data-tooltip="Mostra os pontos que você tem.">/pontos</p>
+            <p data-tooltip="Mostra a Primeira pagina de itens.">/loja</p>
+            <p data-tooltip="Mostra da segunda a décima pagina de itens.para mostrar da segunda a décima pagina de itens.">/loja 2 a 10</p>
+            <p data-tooltip="Mostra os Kits Disponíveis. (Alguns só são liberados com léveis mais altos.">/kits</p>
+            <p data-tooltip="ID Comprar os itens que aparecem na loja. (ID's podem ser encontrados logo abaixo na lista de comandos, ou quando digitar no chat /loja)">/comprar [ID]</p>
+            <p data-tooltip="Compra Kits adicionais após você ter usado os que já tinha.">/comprarkit [ID] [Quantidade]</p>
+
+            <hr>
+
+            <h3>Limitador de Estruturas</h3>
+            <p data-tooltip="Mostra os limites de estruturas.">/showlimits</p>
+
+            <hr>
+
+            <h3>Matar seu Personagem</h3>
+            <p data-tooltip="Matar seu personagem caso os requisitos sejam cumpridos (Não estar algemado, não estar inconsciente, não estar sentado e não estar sendo carregado)">/suicide</p>
+
+            <hr>
+
+            <h3>Comprar Kibble</h3>
+            <p data-tooltip="/comprar kbbasica">/kb1</p>
+            <p data-tooltip="/comprar kbsimples">/kb2</p>
+            <p data-tooltip="/comprar kbregular">/kb3</p>
+            <p data-tooltip="/comprar kbsuperior">/kb4</p>
+            <p data-tooltip="/comprar kbexcepcional">/kb5</p>
+            <p data-tooltip="/comprar kbextraordinaria">/kb6</p>
+            <p data-tooltip="/comprar experiencia">/exp</p>
+
+            <hr>
+
+            <h3>Comandos Alternativos</h3>
+            <p data-tooltip="/loja">/shp</p>
+            <p data-tooltip="/loja">/shop</p>
+            <p data-tooltip="/loja">/mercado</p>
+            <p data-tooltip="/kit">/kt</p>
+            <p data-tooltip="/pontos">/points</p>
+            <p data-tooltip="/pontos">/ponto</p>
+            <p data-tooltip="/pontos">/arkpoints</p>
+
+            <hr>
+
+            <h3>Torretas</h3>
+            <p data-tooltip="Encher as torretas proximas.">/fill</p>
+            <p data-tooltip="Ligar torretas proximas.">/turrets on</p>
+
+            <hr>
+
+            <h3>Comandos PvE</h3>
+            <p data-tooltip="Mostra o tempo restante de PVE da sua tribo">/pvestatus</p>
+            <p data-tooltip=" Desativa permanentemente o PVE da sua tribo. (Somente pode ser solicitado novamente após um raid à sua tribo, na sala #solicitar-PVE)">/pveoff</p>
+            <p data-tooltip="Checka se a tribo que você está olhando se está com modo PVE Ativo;">/pvecheck</p>
+
+            <hr>
+
+            <h3>Criação de Dinos</h3>
+            <p data-tooltip="Claimar dinos bebes em uma área à sua volta. Se tiver cryopods vazias já coloca eles nelas.">/claim</p>
+            <p data-tooltip="Ativa o acasalamento de dinos em sua volta (10 fundações)">/mate</p>
+            <p data-tooltip="Desativa o acasalamento de dinos em sua volta (10 Fundações)">/nomate</p>
+            <!-- <p data-tooltip="Dá 100% de imprint para o dino (Obsoleto)">/imprint</p> -->
+            <p data-tooltip="Castra o dino que você está olhando ou em área">/neuter</p>
+
+            <hr>
+
+            <h3>Fabricação Automática</h3>
+            <p data-tooltip="Ativa a fabricação automática de pólvora na estrutura em que estiver mirando.">/acpolvora</p>
+            <p data-tooltip="Desativa a fabricação automática de pólvora na estrutura em que estiver mirando.">/acoffpolvora</p>
+            <p data-tooltip="Ativa a fabricação automática de Sparkpowder na estrutura em que estiver mirando.">/acspark</p>
+            <p data-tooltip="Desativa a fabricação automática de sparkpowder na estrutura em que estiver mirando.">/acoffspark</p>
+            <p data-tooltip="Ativa a fabricação automática de Cimento na estrutura em que estiver mirando.">/accimento</p>
+            <p data-tooltip="Desativa a fabricação automática de cimento na estrutura em que estiver mirando.">/acoffcimento</p>
+            <p data-tooltip="Ativa a fabricação automática de Narcótico na estrutura em que estiver mirando.">/acnarco</p>
+            <p data-tooltip="Desativa a fabricação automática de Narcótico na estrutura em que estiver mirando.">/acoffnarco</p>
+            <p data-tooltip="Ativa a fabricação automática de Bala Avançada de Rifle na estrutura em que estiver mirando.">/acbala</p>
+            <p data-tooltip="Desativa a fabricação automática de Bala Avançada de Rifle na estrutura em que estiver mirando.">/acoffbala</p>
+            <p data-tooltip="Ativa a fabricação automática de Electronics na estrutura em que estiver mirando.">/acelec</p>
+            <p data-tooltip="Desativa a fabricação automática de Electronics na estrutura em que estiver mirando.">/acoffelec</p>
+            
+            <hr>
+
+            <h3>Localizador de Corpos</h3>
+            <p data-tooltip="Lista seus corpos e bolsas no mapa - 30 Pontos">/listbody</p>
+            <p data-tooltip="Localiza onde está o seu corpo para você recuperá-lo - 30 Pontos">/trackbody</p>
+            <p data-tooltip="Puxa os itens do seu corpo para o seu inventário - 100 Pontos">/getbody</p>
+
+            <hr>
+
+            <h3>Localizador de Dinos</h3>
+            <p data-tooltip="Lista seus corpos de dinos e bolsas deles no mapa - 30 Pontos">/listdino</p>
+            <p data-tooltip="Puxa os itens do corpo do seu dino para o seu inventário - 30 Pontos">/getdino</p>
+
+            <hr>
+
+            <h3>AutoFarm</h3>
+            <p data-tooltip="Ativa ou desativa a função no dino OBS: As vezes pode ser necessário pegar o dino novamente para funcionar.">/autofarm</p>
+
+            <hr>
+            
+            <h3>Mudança de Sexo</h3>
+            <p data-tooltip="Muda o sexo do dino. 
+            Como usar:
+            1º - Comprar o Token. Comando para comprar: /comprar mudancasexo |
+            2º - Mirar no seu dino e usar o comando /cg |
+            3º - Se não mudar na hora o gênero só cryopodar que atualiza.">/cg</p>
+            <p data-tooltip="Compra um token (500 Pontos) OBS: É necessário Tokens.">/comprar mudancasexo</p>
+        </div>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer">
+            <h4>Copyright &copy; 2022, Todos os direitos reservados.</h4>
+            <p>Desenvolvido por 1nsend#8207</p>
+        </div>
+    </footer>
+</body>
+</html>
